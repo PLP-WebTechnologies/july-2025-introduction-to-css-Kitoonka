@@ -1,0 +1,101 @@
+/* Reset */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #004080;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background: #eaeaea;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Card Sections (Box Model Example) */
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    width: 80%;
+
+    /* Box Model */
+    box-sizing: border-box;
+}
+
+/* Highlighted box for Box Model demo */
+.highlight-box {
+    background: #f0f8ff;
+    border: 3px dashed #004080;
+    padding: 25px;
+    margin: 30px auto;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #004080;
+    color: white;
+    border: 2px solid #003060;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #0066cc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #004080;
+    color: white;
+    border-radius: 6px;
+}
